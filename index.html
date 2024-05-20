@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my portfolio!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and 
+    (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and 
+    (max-width:530px)" href="phone.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><a href="#">Rubante</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+       <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#photo">Photo</a></li>  
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <img src="enting.jpeg" alt="">
+          <p class="subtitle">HELLO!</p>
+     <h1 class="title">I'm Vincent Rubante</h1>
+            <h3>Call me "Cent", a student currently pursuing <br>Bachelor of Science in Information Systems<br>at NWWSU. I have a strong interest <br>in web development and process improvement.</h3>
+   </div>
+   
+    </section> 
+   
+    
+    <section id="about">
+      <div id="pic">
+      <h1 class="headings">ABOUT</h1>
+      <div class="video-container">
+        <video controls>
+           <source src="RR.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      <div id="intro">
+        <div class="box">
+          <h2>About Me</h2>
+<h2>
+   <p>Hello! I am Vincent Mazo Rubante, 23 years old, currently living in barangay Dagum, Calbayog city, but before I lived in barangay cabacungan, Oquendo Dist. Calbayog City. I am the eldest child of our siblings and currently studying at North West Samar State University and taking the Bachelor of Science Information System course. Even though it's hard to study because of the problems I'm carrying, specifically the serious problems in our family, I still manage to finish my studies.</p> 
+</h2>
+          </section>
+
+  <section id="education">
+      <div id="pic">
+      <h1 class="headings">EDUCATION</h1>
+      <img src="ENT.jpg" alt="">
+      <div id="intro">
+          <div class="box">
+    <h2>Nwssu</h2>     
+    <p> • Currently pursuing Bachelor of Science Information Systems at: Northwest Samar State University </p>
+          
+          <div class="box">
+    <h2>Mag-ubay National highschool</h2>     
+<p>• When I was in high school my strand was GAS which us Bread and Pastry I graduated last April 2019</p>
+          
+          <div class="box">
+    <h2>Cabacungan Elementary School</h2>     
+<p>• Elementary Education
+  Graduated: March 2013</p>
+  <p>Achievements:</p>
+   <p>• Graduated with 5th honor of the class</p> <p>• Received subject awards</p>
+  <p>• Recognized as Artist of the Year</p>
+  </section>
+    
+  <section id="skills">
+      <div id="drawing">
+      <h1 class="headings">SKILLS</h1>
+      <div id="intro">
+        <div class="box">
+<h2>
+   <h2>Drawing Skills:</h2>
+   <p>• line Drawing<br>• Shading and Highlighting<br>• Landscape Drawing<br>• Figure Drawing<br></p> 
+   
+   <h4>Painting Skills:</h4>
+   <p>
+   • Oil Painting<br> 
+   • WaterColor Painting<br>
+   </p> 
+   <h5>Technical Skill:</h5>
+  <p>• Database Management(SQL)</p>
+    <h6>Soft Skills:</h6>
+  <p>
+    • Teamwork<br>
+    • Problem-Solving 
+  </p>
+   
+ 
+</h2>
+  </section>
+  
+  <section id="hobbies">
+      <div id="ball">
+      <h1 class="headings">HOBBIES</h1>
+      <div id="intro">
+        <div class="box">
+<h2>My hobbies</h2>
+   <p>I possess a versatile skill set encompassing painting 🖌️, drawing  ✏️, and editing. In drawing, I draw poster making , and I also participated Poster making Contest since elementary.
+     I also love playing  guitar 🎸, playing basketball 🏀, and playing mobile games
+     📱 especially the online games like "Mobile Legends, Call of Duty etc."</p>
+   
+  </section>
+    
+    <section id="photo">
+      <h1 class="headings">PHOTOS</h1>
+      <div id="gallery">
+        <div id="gallery">
+          <div class="box">
+      
+         <img src="img1.jpg" alt="">
+         <img src="img2.jpg" alt="">
+         <img src="img3.jpg" alt="">
+         <img src="img4.jpg" alt="">
+         <img src="img 5.jpg" alt="">
+         <img src="img11.jpg" alt="">
+         <img src="img22.jpg" alt="">         
+         <img src="img33.jpg" alt="">         
+         <img src="img44.jpg" alt="">
+      </div>
+  <button id="prevBtn" onclick="prevImage()">Previous</button>
+  <button id="nextBtn" onclick="nextImage()">Next</button>
+       
+    </section>
+    
+   <section id="contact">
+  <h1 class="headings">CONTACT</h1>
+    <div class="box">
+  <form action="" class="form" onsubmit="return submitForm()">
+    <input type="text" name="name" id="name" class="input" placeholder="Enter Your Name" required>
+    <input type="email" name="email" id="email" class="input" placeholder="Enter Your Email" required>
+    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+    <input type="submit" value="SEND" id="send">
+  </form>
+  <div id="notification"></div>
+</section>
+<script src="scripts.js"></script>
+  </body>
+  </html>
